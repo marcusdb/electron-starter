@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Yarn cache
+.yarn/cache/
+.yarn/install-state.gz
+.yarn/build-state.yml
+.pnp.*
+
+# Build outputs
+dist/
+dist-electron/
+release/
+storybook-static/
+
+# Test coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Electron builds
+*.app
+*.dmg
+*.exe
+*.msi 
