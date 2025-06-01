@@ -1,0 +1,35 @@
+{
+  "name": "create-electron-vite-app",
+  "version": "1.0.0",
+  "description": "Create Electron + React + Vite + TailwindCSS + shadcn/ui applications",
+  "type": "module",
+  "bin": {
+    "create-electron-vite-app": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template/",
+    "README.md"
+  ],
+  "keywords": [
+    "electron",
+    "react",
+    "vite",
+    "tailwindcss",
+    "shadcn-ui",
+    "storybook",
+    "vitest",
+    "template",
+    "create-app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/create-electron-vite-app.git"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "kleur": "^4.1.5"
+  }
+} 

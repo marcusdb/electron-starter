@@ -1,0 +1,31 @@
+{
+  "name": "electron-react-vite-template",
+  "description": "A modern Electron application template with React, Vite, TailwindCSS, shadcn/ui, Storybook, and Vitest",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "template": {
+    "placeholders": {
+      "{{project-name}}": {
+        "description": "Project name (kebab-case)",
+        "default": "my-electron-app"
+      },
+      "{{project-description}}": {
+        "description": "Project description",
+        "default": "A modern Electron application"
+      },
+      "{{app-name}}": {
+        "description": "Application display name",
+        "default": "My Electron App"
+      },
+      "{{app-id}}": {
+        "description": "Application ID (reverse domain notation)",
+        "default": "com.example.app"
+      }
+    },
+    "files": [
+      "package.json",
+      "index.html",
+      "README.md"
+    ]
+  }
+} 

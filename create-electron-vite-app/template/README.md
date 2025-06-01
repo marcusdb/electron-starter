@@ -1,6 +1,4 @@
-# {{project-name}}
-
-{{project-description}}
+# Electron React Vite Starter
 
 A modern Electron application built with React, Vite, TailwindCSS, shadcn/ui, Storybook, and Vitest.
 
@@ -125,38 +123,4 @@ This will create distributable packages in the `release/` directory.
 - [shadcn/ui](https://ui.shadcn.com/) - UI components
 - [TypeScript](https://typescriptlang.org/) - Type safety
 - [Storybook](https://storybook.js.org/) - Component development
-- [Vitest](https://vitest.dev/) - Unit testing framework
-
----
-
-## 🎯 Using This as a Template
-
-This project is designed to be used as a template for creating new Electron applications. See [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md) for comprehensive instructions.
-
-### Quick Template Usage Options:
-
-#### Option 1: GitHub Template Repository
-1. Push this to GitHub and mark as template repository
-2. Users can generate new projects from the template
-3. Or use with degit: `npx degit yourusername/repo-name my-app`
-
-#### Option 2: npm create package
-```bash
-# If published to npm as create-electron-vite-app
-npm create electron-vite-app my-app
-yarn create electron-vite-app my-app
-pnpm create electron-vite-app my-app
-```
-
-#### Option 3: Direct clone with script
-Use the included create package in `create-electron-vite-app/` folder.
-
-### Template Variables
-
-The template uses these placeholders that get replaced when creating new projects:
-- `{{project-name}}` - Project name (kebab-case)
-- `{{app-name}}` - Application display name  
-- `{{project-description}}` - Project description
-- `{{app-id}}` - Application ID (reverse domain notation)
-
-For detailed setup and publishing instructions, see [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md). 
+- [Vitest](https://vitest.dev/) - Unit testing framework 
