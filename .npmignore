@@ -1,0 +1,19 @@
+# Exclude template's node_modules from the published package
+template/node_modules/
+template/.yarn/
+template/yarn.lock
+template/package-lock.json
+
+# Development files
+*.log
+.DS_Store
+.env*
+coverage/
+.nyc_output/
+
+# Testing
+test-project/
+temp-test/
+
+# Build artifacts
+*.tgz 

@@ -20,13 +20,24 @@
     "storybook",
     "vitest",
     "template",
-    "create-app"
+    "create-app",
+    "boilerplate",
+    "scaffold",
+    "desktop",
+    "cross-platform"
   ],
-  "author": "Your Name",
+  "author": "marcusdb",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/create-electron-vite-app.git"
+    "url": "https://github.com/marcusdb/create-electron-vite-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcusdb/create-electron-vite-app/issues"
+  },
+  "homepage": "https://github.com/marcusdb/create-electron-vite-app#readme",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "prompts": "^2.4.2",

@@ -38,4 +38,6 @@ Thumbs.db
 *.app
 *.dmg
 *.exe
-*.msi 
+*.msi *.tgz
+temp-test/
+test-project/
