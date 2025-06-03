@@ -1,6 +1,6 @@
 {
   "name": "create-electron-vite-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create Electron + React + Vite + TailwindCSS + shadcn/ui applications",
   "type": "module",
   "bin": {

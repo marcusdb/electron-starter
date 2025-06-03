@@ -1,162 +1,112 @@
-# {{project-name}}
+# Electron Vite React Starter Template
 
-{{project-description}}
+A modern, production-ready Electron application template built with React, Vite, TailwindCSS, shadcn/ui, Storybook, and Vitest.
 
-A modern Electron application built with React, Vite, TailwindCSS, shadcn/ui, Storybook, and Vitest.
+## 🚀 Quick Start
 
-## Features
+Create a new Electron app using this template:
 
-- ⚡️ **Vite** - Fast build tool and development server
-- ⚛️ **React 18** - Modern React with hooks
-- 🎨 **TailwindCSS** - Utility-first CSS framework
-- 🎯 **shadcn/ui** - Beautiful and accessible UI components
-- 📦 **Electron** - Cross-platform desktop app framework
-- 🔧 **TypeScript** - Type safety and better DX
-- 🧹 **ESLint** - Code linting and formatting
-- 📚 **Storybook** - Component development and documentation
-- 🧪 **Vitest** - Fast unit testing with Vite
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18 or higher
-- Yarn package manager
-
-### Installation
-
-1. Install dependencies:
 ```bash
+npx create-electron-vite-app@latest my-app
+cd my-app
 yarn install
-```
-
-2. Start the development server:
-```bash
 yarn electron:dev
 ```
 
-This will start both the Vite dev server and Electron application.
+## ✨ What's Included
 
-## Available Scripts
+- ⚡️ **Vite** - Lightning fast build tool and dev server
+- ⚛️ **React 18** - Modern React with hooks and concurrent features
+- 🎨 **TailwindCSS** - Utility-first CSS framework
+- 🎯 **shadcn/ui** - Beautiful, accessible UI components
+- 📦 **Electron** - Cross-platform desktop app framework
+- 🔧 **TypeScript** - Full type safety throughout
+- 🧹 **ESLint** - Code linting with best practices
+- 📚 **Storybook** - Component development and documentation
+- 🧪 **Vitest** - Fast unit testing framework
+- 🎭 **Testing Library** - Component testing utilities
 
-### Development
-- `yarn dev` - Start Vite development server
-- `yarn electron:dev` - Start Electron in development mode
-- `yarn preview` - Preview production build
+## 📋 Prerequisites
 
-### Testing
-- `yarn test` - Run tests in watch mode
-- `yarn test:run` - Run tests once
-- `yarn test:ui` - Run tests with UI interface
+- **Node.js** 18 or higher
+- **Yarn** package manager
 
-### Storybook
-- `yarn storybook` - Start Storybook development server
-- `yarn build-storybook` - Build Storybook for production
+## 🎯 Template Usage Options
 
-### Build & Production
-- `yarn build` - Build for production
-- `yarn electron:build` - Build Electron app for production
-- `yarn lint` - Run ESLint
-
-## Project Structure
-
-```
-├── .storybook/        # Storybook configuration
-├── electron/          # Electron main process files
-│   ├── main.ts        # Main Electron process
-│   └── preload.ts     # Preload script
-├── src/              # React application source
-│   ├── components/   # React components
-│   │   └── ui/       # shadcn/ui components
-│   ├── lib/          # Utility functions
-│   ├── test/         # Test setup and utilities
-│   ├── App.tsx       # Main React component
-│   ├── main.tsx      # React entry point
-│   └── index.css     # Global styles with Tailwind
-├── package.json      # Dependencies and scripts
-├── vite.config.ts    # Vite configuration
-├── vitest.config.ts  # Vitest configuration
-├── tailwind.config.js # Tailwind configuration
-└── components.json   # shadcn/ui configuration
+### Option 1: Using npx (Recommended)
+```bash
+npx create-electron-vite-app@latest my-awesome-app
 ```
 
-## Testing
+### Option 2: GitHub Template
+1. Click "Use this template" on GitHub
+2. Clone your new repository
+3. Install dependencies and start developing
 
-The project uses **Vitest** for unit testing with:
-- **@testing-library/react** for component testing
-- **@testing-library/jest-dom** for custom matchers
-- **jsdom** environment for DOM testing
+### Option 3: Manual Clone
+```bash
+git clone https://github.com/yourusername/electron-vite-starter.git my-app
+cd my-app
+rm -rf .git
+git init
+yarn install
+```
 
-Example test files are located alongside components with `.test.tsx` extension.
-
-## Storybook
-
-**Storybook** is configured for component development and documentation:
-- Stories are co-located with components as `.stories.tsx` files
-- TailwindCSS styles are automatically loaded
-- All shadcn/ui components can be documented and tested in isolation
-
-Access Storybook at `http://localhost:6006` when running `yarn storybook`.
-
-## Adding shadcn/ui Components
-
-To add new shadcn/ui components, you can manually create them in `src/components/ui/` or use the shadcn CLI:
+## 🏃‍♂️ Development Workflow
 
 ```bash
-npx shadcn-ui@latest add button
-```
+# Install dependencies
+yarn install
 
-## Building for Production
+# Start development (launches both Vite dev server and Electron)
+yarn electron:dev
 
-To build the application for production:
+# Run tests
+yarn test
 
-```bash
+# Start Storybook
+yarn storybook
+
+# Build for production
 yarn electron:build
 ```
 
-This will create distributable packages in the `release/` directory.
+## 📁 Project Structure
 
-## Technologies Used
+```
+my-app/
+├── electron/          # Electron main process
+├── src/              # React application
+│   ├── components/   # React components
+│   │   └── ui/       # shadcn/ui components
+│   └── lib/          # Utilities
+├── .storybook/       # Storybook config
+└── package.json      # Dependencies & scripts
+```
 
-- [Electron](https://electronjs.org/) - Desktop app framework
-- [React](https://reactjs.org/) - UI library
-- [Vite](https://vitejs.dev/) - Build tool
-- [TailwindCSS](https://tailwindcss.com/) - CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - UI components
-- [TypeScript](https://typescriptlang.org/) - Type safety
-- [Storybook](https://storybook.js.org/) - Component development
-- [Vitest](https://vitest.dev/) - Unit testing framework
+## 🛠️ Customization
+
+After creating your project:
+
+1. **Update package.json** with your app details
+2. **Customize Electron settings** in `electron/main.ts`
+3. **Add shadcn/ui components**: `npx shadcn-ui@latest add button`
+4. **Configure app icon and metadata** for distribution
+
+## 📚 Documentation
+
+For detailed development information, see:
+- [DEVELOPMENT.md](DEVELOPMENT.md) - Development guide and available scripts
+- [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md) - Advanced template usage and publishing
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and contribution guidelines.
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🎯 Using This as a Template
-
-This project is designed to be used as a template for creating new Electron applications. See [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md) for comprehensive instructions.
-
-### Quick Template Usage Options:
-
-#### Option 1: GitHub Template Repository
-1. Push this to GitHub and mark as template repository
-2. Users can generate new projects from the template
-3. Or use with degit: `npx degit yourusername/repo-name my-app`
-
-#### Option 2: npm create package
-```bash
-# If published to npm as create-electron-vite-app
-npm create electron-vite-app my-app
-yarn create electron-vite-app my-app
-pnpm create electron-vite-app my-app
-```
-
-#### Option 3: Direct clone with script
-Use the included create package in `create-electron-vite-app/` folder.
-
-### Template Variables
-
-The template uses these placeholders that get replaced when creating new projects:
-- `{{project-name}}` - Project name (kebab-case)
-- `{{app-name}}` - Application display name  
-- `{{project-description}}` - Project description
-- `{{app-id}}` - Application ID (reverse domain notation)
-
-For detailed setup and publishing instructions, see [TEMPLATE_USAGE.md](TEMPLATE_USAGE.md). 
+**Happy building! 🎉** 

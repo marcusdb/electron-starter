@@ -7450,9 +7450,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-react-vite-starter@workspace:.":
+"electron-to-chromium@npm:^1.5.160":
+  version: 1.5.161
+  resolution: "electron-to-chromium@npm:1.5.161"
+  checksum: 10c0/64e06657b747d889fdacd7ee042f5f2e189d215b6e7b8510d899d1eeb82676f9d4431ee6822cee009195500338f23996b9ae4eec0e4eb4e907e13e2d28489d5b
+  languageName: node
+  linkType: hard
+
+"electron-vite-react-starter@workspace:.":
   version: 0.0.0-use.local
-  resolution: "electron-react-vite-starter@workspace:."
+  resolution: "electron-vite-react-starter@workspace:."
   dependencies:
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
     "@radix-ui/react-aspect-ratio": "npm:^1.0.3"
@@ -7525,13 +7532,6 @@ __metadata:
     wait-on: "npm:^7.2.0"
   languageName: unknown
   linkType: soft
-
-"electron-to-chromium@npm:^1.5.160":
-  version: 1.5.161
-  resolution: "electron-to-chromium@npm:1.5.161"
-  checksum: 10c0/64e06657b747d889fdacd7ee042f5f2e189d215b6e7b8510d899d1eeb82676f9d4431ee6822cee009195500338f23996b9ae4eec0e4eb4e907e13e2d28489d5b
-  languageName: node
-  linkType: hard
 
 "electron@npm:^28.0.0":
   version: 28.3.3

@@ -1,9 +1,27 @@
 {
-  "name": "{{project-name}}",
-  "private": true,
-  "version": "0.0.1",
-  "description": "{{project-description}}",
+  "name": "electron-vite-react-starter",
+  "version": "1.0.0",
+  "description": "A modern Electron application template built with React, Vite, TailwindCSS, shadcn/ui, Storybook, and Vitest",
   "main": "dist-electron/main.js",
+  "author": "marcusdb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcusdb/electron-vite-react-starter.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "vite",
+    "tailwindcss",
+    "shadcn-ui",
+    "storybook",
+    "vitest",
+    "template",
+    "boilerplate",
+    "desktop",
+    "cross-platform"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder",
@@ -20,8 +38,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -50,6 +66,8 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -93,8 +111,8 @@
     "wait-on": "^7.2.0"
   },
   "build": {
-    "appId": "{{app-id}}",
-    "productName": "{{app-name}}",
+    "appId": "com.electron.vite.starter",
+    "productName": "Electron Vite Starter",
     "directories": {
       "output": "release"
     },
